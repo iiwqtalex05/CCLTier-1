@@ -39,7 +39,7 @@ Clear-Host
 Write-Host " _____  _____  _      ____             ____        _           " -ForegroundColor Yellow
 Write-Host "| ____|| ____|| |    |  _ \ ___  ___  |  _ \ _   _| | ___  ___ " -ForegroundColor Yellow
 Write-Host "| |    | |    | |    | |_) / _ \/ __| | |_) | | | | |/ _ \/ __|" -ForegroundColor Yellow
-Write-Host "| |___ | |___ | ____ |  _ <  __/ (__  |  _ <| |_| | |  __/\__ \" -ForegroundColor Yellow
+Write-Host "| |___ | |___ | |___ |  _ <  __/ (__  |  _ <| |_| | |  __/\__ \" -ForegroundColor Yellow
 Write-Host "|_____||_____||_____||_| \_\___|\___| |_| \_\\__,_|_|\___||___/" -ForegroundColor Yellow
 Write-ColoredLine ""
 Write-ColoredLine "=== Recording Rule Guidelines ===" Yellow
