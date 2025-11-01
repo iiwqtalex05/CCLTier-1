@@ -36,18 +36,18 @@ function Wait-ForEnter {
 }
 
 Clear-Host
-Write-Host " _____ _____  _      ____             ____        _           " -ForegroundColor Yellow
-Write-Host "| ____|_   _|/ \    |  _ \ ___  ___  |  _ \ _   _| | ___  ___ " -ForegroundColor Yellow
-Write-Host "|  _|   | | / _ \   | |_) / _ \/ __| | |_) | | | | |/ _ \/ __|" -ForegroundColor Yellow
-Write-Host "| |___  | |/ ___ \  |  _ <  __/ (__  |  _ <| |_| | |  __/\__ \" -ForegroundColor Yellow
-Write-Host "|_____| |_/_/   \_\ |_| \_\___|\___| |_| \_\\__,_|_|\___||___/" -ForegroundColor Yellow
+Write-Host " _____  _____  _      ____             ____        _           " -ForegroundColor Yellow
+Write-Host "| ____|| ____|| |    |  _ \ ___  ___  |  _ \ _   _| | ___  ___ " -ForegroundColor Yellow
+Write-Host "| |    | |    | |    | |_) / _ \/ __| | |_) | | | | |/ _ \/ __|" -ForegroundColor Yellow
+Write-Host "| |___ | |___ | ____ |  _ <  __/ (__  |  _ <| |_| | |  __/\__ \" -ForegroundColor Yellow
+Write-Host "|_____||_____||_____||_| \_\___|\___| |_| \_\\__,_|_|\___||___/" -ForegroundColor Yellow
 Write-ColoredLine ""
-Write-ColoredLine "=== Recording Rule Hub ===" Yellow
+Write-ColoredLine "=== Recording Rule Guidelines ===" Yellow
 Write-ColoredLine "Complete both steps with 100% success to pass." White
 Write-ColoredLine "Applications will download and extract to C:\ToolsETA." White
 Write-ColoredLine "If a prompt shows up, press OK to run the application." White
 Write-ColoredLine "Follow the instructions listed on each step." White
-Write-ColoredLine "This T1 PowerShell process currently has 2 steps." White
+Write-ColoredLine "This T1 PowerShell process has 2 steps." White
 Write-Host ""
 $cpu = Get-WmiObject Win32_Processor | Select-Object -First 1
 
@@ -81,13 +81,10 @@ if ($gpuIsGood) {
 }
 Write-ColoredLine ""
 Write-ColoredLine "=== Discord Servers ===" Yellow
-Write-ColoredLine "discord.gg/mcl" White
-Write-ColoredLine "discord.gg/rivalsleague" White
-Write-ColoredLine "discord.gg/eta" White
+Write-ColoredLine "discord.gg/ccl" White
 Write-ColoredLine ""
 Write-ColoredLine "=== Credits ===" Yellow
-Write-ColoredLine "Made by @ravenader1" White
-Write-ColoredLine "Made by @cyberthreats" White
+Write-ColoredLine "Made by @mixhxei" White
 Write-Host ""
 Wait-ForEnter -Message "Press Enter to Continue"
 Clear-Host
